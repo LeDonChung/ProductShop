@@ -129,13 +129,11 @@
 /*Breadcrumb*/
 .breadcrumb {
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .breadcrumb-list {
     display: flex;
-
-
 }
 
 .breadcrumb-item {
@@ -146,4 +144,41 @@
 .breadcrumb-item:last-child{
     cursor: auto;
     color: var(--text-color);
+}
+
+/*Product*/
+
+.product {
+
+}
+
+.product-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+.product-rate {
+    margin: 20px 0;
+}
+
+.product-rate span{
+    color: var(--text-description);
+}
+
+.product-rate-icon {
+
+}
+
+.product-pictures-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+.product-picture-item {
+    margin-bottom: 8px;
 }
