@@ -88,3 +88,40 @@
 .notify-icon {
     margin-left: 18px;
 }
+
+/*Footer*/
+.footer {
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+.switch-language {
+    width: 130px;
+    padding: 10px;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.switch-language option{
+}
+
+.footer-version {
+    color: var(--text-description);
+}
+
+.footer-brand {
+
+}
+
+.brand-img {
+    padding-left: 10px;
+}

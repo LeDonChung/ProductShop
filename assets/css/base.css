@@ -1,6 +1,7 @@
 :root{
     --app-color: #FFFFFF;
     --text-color: #11142D;
+    --text-description: #a4a8b1;
 }
 html{
     background-color: rgb(255, 255, 255);
