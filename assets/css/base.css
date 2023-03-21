@@ -1,5 +1,9 @@
+:root{
+    --app-color: #FFFFFF;
+    --text-color: #11142D;
+}
 html{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
 }
 *{
