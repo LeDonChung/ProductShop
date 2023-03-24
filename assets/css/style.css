@@ -494,3 +494,89 @@
     font-size: 16px;
     color:#cbcdd1;
 }
+
+
+.form {
+    padding: 60px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-logo {
+    width: 128px;
+
+}
+
+.form-title {
+    margin: 40px 0 20px 0;
+}
+
+.form-content {
+    display: flex; 
+    height: 36px;
+    align-items: center;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    width: 264px;
+    height: 100%;
+    background-color: #f3f4f6;
+}
+
+.form-input__icon {
+    padding: 0 10px;
+}
+
+.form-input__input {
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.btn--sub {
+    background-color: #00bdd6;
+    color: #ffffff;
+    width: 110px;
+    height: 100%;
+    padding: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.information-list {
+    list-style: none;
+    margin: 36px;
+}
+
+.information-item {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-bottom: 26px;
+}
+
+.information-item__title {
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+.information-item__link {
+    font-size: 18px;
+    font-weight: 450;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.information-item:hover .information-item__link:hover {
+    transition: all 0.3s ease-in;
+    color: #00bdd6;
+}
